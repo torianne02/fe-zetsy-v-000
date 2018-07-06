@@ -23,9 +23,6 @@ body {
 /* Write all remaining styles here */
 
 /* ///// HEADER LAYOUT ///// */
-header {
-	display: block;
-}
 
 h1 {
 	padding-bottom: 10px;
@@ -36,8 +33,13 @@ h1 {
 	border-bottom: 1px solid #ccc;
 }
 
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
 header a {
-	color: rgb (152, 173, 166);
+	color: rgb(152, 173, 166);
 	text-decoration: none;
 }
 
