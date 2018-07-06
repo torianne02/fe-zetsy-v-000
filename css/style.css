@@ -20,6 +20,5 @@ body {
 /* Write all remaining styles here */
 
 #featured-image {
-	border: solid;
-	border-color: #F3EBE9;
+	border: 5px rgb(152, 173, 166) solid;
 }
