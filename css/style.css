@@ -19,13 +19,9 @@ body {
 
 /* Write all remaining styles here */
 
+/* ///// HEADER LAYOUT ///// */
 header {
 	display: block;
-}
-
-header a {
-	color: rgb (152, 173, 166);
-	text-decoration: none;
 }
 
 h1 {
@@ -36,6 +32,13 @@ h1 {
 	font-family: 'Baskerville', serif;
 	border-bottom: 1px solid #ccc;
 }
+
+header a {
+	color: rgb (152, 173, 166);
+	text-decoration: none;
+}
+
+/* ///// LAYOUT ///// */
 
 .clearfix:after {
 	content: ".";
