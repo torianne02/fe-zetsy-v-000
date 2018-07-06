@@ -1,11 +1,11 @@
-/*////////////// Fonts //////////////*/
+/*////////////// FONTS //////////////*/
 
 @font-face {
 	font-family: 'Baskerville';
 	src: url(../fonts/Baskerville.ttc);
 }
 
-/*////////// Global Styles //////////*/
+/*////////// GLOBAL STYLES //////////*/
 
 body {
 	background: #F3EBE9;
@@ -51,17 +51,16 @@ header a {
 	text-decoration: none;
 }
 
-/* ///// LAYOUT ///// */
-
-.clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	height: 0;
-	line-height: 0;
+header a:hover {
+	color: rgb(111,127,122);
 }
 
-#featured-image {
+#featured img {
 	border: 5px rgb(152,173,166) solid;
 }
+
+#featured a {
+	color: #1783bb;
+}
+
+
