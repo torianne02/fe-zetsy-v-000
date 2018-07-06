@@ -63,4 +63,6 @@ header a:hover {
 	color: #1783bb;
 }
 
-
+#featured a:hover {
+	text-decoration: underline;
+}
