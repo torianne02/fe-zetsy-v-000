@@ -19,6 +19,15 @@ body {
 
 /* Write all remaining styles here */
 
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
 #featured-image {
 	border: 5px rgb(152, 173, 166) solid;
 }
